@@ -22,7 +22,9 @@ class SuperheroViewController: UIViewController, UICollectionViewDataSource {
         collectionView.dataSource = self
         
         let layout = collectionView.collectionViewLayout as! UICollectionViewFlowLayout
-        let cellsPerLine: CGFloat = 4
+        layout.minimumInteritemSpacing = 5
+        layout .minimumLineSpacing = layout.minimumInteritemSpacing
+        let cellsPerLine: CGFloat = 2
         let interItemSpacingTotal = layout.minimumInteritemSpacing * (cellsPerLine - 1)
         let width = collectionView.frame.size.width / cellsPerLine - interItemSpacingTotal / cellsPerLine
         
@@ -49,7 +51,7 @@ class SuperheroViewController: UIViewController, UICollectionViewDataSource {
     }
     
     func fetchMovies() {
-        let url = URL(string: "https://api.themoviedb.org/3/movie/now_playing?api_key=a07e22bc18f5cb106bfe4cc1f83ad8ed")!
+        let url = URL(string: "https://api.themoviedb.org/3/movie/99861/similar?api_key=a07e22bc18f5cb106bfe4cc1f83ad8ed")!
         
         let request = URLRequest(url: url, cachePolicy: .reloadIgnoringLocalCacheData, timeoutInterval: 10)
         
