@@ -52,6 +52,12 @@ class DetailViewController: UIViewController {
             posterImageView.af_setImage(withURL: posterPathURL)
         }
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        //let cell = sender as! [String: Any]?
+        let trailerViewController = segue.destination as! TrailerViewController
+        trailerViewController.movie = movie
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -59,14 +65,6 @@ class DetailViewController: UIViewController {
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
+    
 
 }
