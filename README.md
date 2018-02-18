@@ -1,5 +1,4 @@
-
-# Project 1 - Flix
+# Project 1 - *Fix*
 
 **Flix** is a movies app using the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
@@ -36,7 +35,7 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://github.com/MarioMartinezA/Flix/blob/master/VideoDemo/FlixDemo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/ThaliaVillalobos/Flix/blob/master/Demo/FlixDemo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
@@ -46,7 +45,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [2018] [name of copyright owner]
+    Copyright [2018] [CSUMB]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -59,11 +58,12 @@ Describe any challenges encountered while building the app.
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
     limitations under the License.
+    
+    
 
+# Project 2 - *Fix Part 2*
 
-# Project 2 - *Flix*
-
-**Flix** is a movies app displaying box office and top rental DVDs using [The Movie Database API](http://docs.themoviedb.apiary.io/#).
+**Fix** is a movies app displaying box office and top rental DVDs using [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
 Time spent: **2** hours spent in total
 
@@ -89,14 +89,14 @@ The following **additional** features are implemented:
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
-1. What is the difference between '!' and '?'?
-2. Is there a better way of implementing the TrailerView class?
+1.
+2.
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://github.com/MarioMartinezA/Flix/blob/master/VideoDemo/FlixDemo2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/ThaliaVillalobos/Flix/blob/master/Demo/Demo2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
@@ -106,7 +106,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [2018] [name of copyright owner]
+    Copyright [2018] [CSUMB]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
